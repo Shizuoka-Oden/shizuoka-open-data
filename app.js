@@ -183,4 +183,9 @@ function makeImageList() {
     
 }
 
-makeImageList();
+var argValue = process.argv[2];
+if (argValue === 'image') {
+    makeImageList();
+} else if (argValue === 'excel') {
+    makeExcelList();   
+}
