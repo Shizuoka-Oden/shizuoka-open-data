@@ -1,0 +1,16 @@
+<% for a in @data : %>
+# <%= a.title %> (<%= a.num_resources %>)
+
+* <%= a.notes %>
+
+<% for b in a.resources : %>
+
+## [<%= b.name %>(<%= b.format %>)](<%= b.url %>)
+```
+<%= b.data %>
+
+```
+
+<% end %>
+<% end %>
+
