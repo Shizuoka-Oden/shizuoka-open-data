@@ -2,25 +2,49 @@ var fs = require('fs');
 var request = require('request');
 var xlsx = require('node-xlsx');
 var ECT = require('ect');
+var async = require('async');
+var renderer = ECT({ root : __dirname + '/views' });
 
 var _data = [];
+var _mode = null;
+var _filter = null;
+var _counter = {};
 
 var _packageCount = 0;
 var _resourceCount = 0;
+
+Array.prototype.divide = function(n){
+    var ary = this;
+    var idx = 0;
+    var results = [];
+    var length = ary.length;
+
+    while (idx + n < length){
+        var result = ary.slice(idx,idx+n)
+        results.push(result);
+        idx = idx + n
+    }
+
+    var rest = ary.slice(idx,length+1)
+    results.push(rest)
+    return results;
+}
 
 function readBinaryFromHttp(param) {
     return new Promise(function(resolve, reject) {
         var req = {
             uri: param.url,
-            encoding: null    
+            encoding: null
         };
         request(req, function (error, response, body) {
             if (!error && response.statusCode == 200) {
-                fs.writeFile(param.id + '.' + param.prefix, body , function (err) {
+                fs.writeFile('data/' + param.id + '.' + param.prefix, body , function (err) {
                     resolve();
                 });
             } else {
-                console.log('error : '+ response.statusCode);
+                if (response) {
+                    console.log('error : '+ response.statusCode);
+                }
                 reject(error)
             }
         });
@@ -28,12 +52,12 @@ function readBinaryFromHttp(param) {
 }
 
 function excel2Json(param) {
-    console.log('excel2Json start ' + JSON.stringify(param));
+    //console.log('excel2Json start ' + JSON.stringify(param));
     return new Promise(function(resolve, reject) {
         readBinaryFromHttp(param).then(function(d) {
             var workbook = null;
             try {
-                workbook = xlsx.parse(__dirname + '/' + param.id + '.' + param.prefix);
+                workbook = xlsx.parse(__dirname + '/data/' + param.id + '.' + param.prefix);
             } catch(e) {
                 resolve('');
                 return;
@@ -55,7 +79,7 @@ function readPackageDetail(packageID) {
         request('http://dataset.city.shizuoka.jp/api/action/package_show?id=' + packageID, function (error, response, body) {
             if (!error && response.statusCode == 200) {
                 var json = JSON.parse(body);
-                console.log(packageID + '/' + json.result.title);
+                //console.log(packageID + ' / ' + json.result.title);
                 resolve(json.result);
             } else {
                 console.log('error '+ response.statusCode);
@@ -65,12 +89,13 @@ function readPackageDetail(packageID) {
     });    
 }
 
-function readPackageList(data) {
+function readPackageList() {
     return new Promise(function(resolve, reject) {
         request('http://dataset.city.shizuoka.jp/api/action/package_list', function (error, response, body) {
             if (!error && response.statusCode == 200) {
                 var json = JSON.parse(body);
-                resolve(json.result);
+                var ar = json.result;
+                resolve(ar);
             } else {
                 console.log('error/ '+ response.statusCode);
                 reject(error)
@@ -79,113 +104,130 @@ function readPackageList(data) {
     });    
 }
 
-function readResources(data) {
-    console.log("readResources start");
-    return new Promise(function(resolve, reject) {
-        data.resources.reduce(function(prevValue, currentValue) {
-            return prevValue.then(function() {
-                return new Promise(function(resolve, reject) {
-                    console.log(currentValue.name);
-                    if (currentValue.format === 'XLS') {
-                        excel2Json({
-                            url:currentValue.url,
-                            id:currentValue.id,
-                            prefix:currentValue.format.toLowerCase()
-                        }).then(function(res) {
-                            currentValue.data = res;
-                            resolve();
-                        });
-                    } else {
-                        resolve();
-                    }
-                });
-            })
-        }, Promise.resolve()).then(function() {
-            console.log('readResources end');
-            resolve(data);
-        });
-    });    
+function readResources(packageDetail, callback) {
+    if (!packageDetail) {
+        callback(null, null);
+        return;
+    }
+    if (_filter) {
+        callback(null, packageDetail);
+        return;
+    }
+    async.forEachSeries(packageDetail.resources, function(resource, next){
+        if ((resource.format === 'XLS') || (resource.format === 'XLSX')) {
+            excel2Json({
+                url:resource.url,
+                id:resource.id,
+                prefix:resource.format.toLowerCase()
+            }).then(function(res) {
+                resource.data = res;
+                next(resource);
+            });
+        }
+    }, function(err) {
+        callback(null, packageDetail);
+    });
 }
 
-function checkImage(data) {
-    console.log("readResources start");
-    data.images = [];
-    return new Promise(function(resolve, reject) {
-        var noImg = true;
-        for (var i=0;i<data.resources.length;i++) {
-            console.log(data.resources[i].format);
-            if (data.resources[i].format === 'JPEG') {
-                noImg = false;
-                data.images.push(data.resources[i]);
-            }
+function filtering(packageDetail, callback) {
+    if (!_filter) {
+        callback(null, packageDetail);
+        return;
+    }
+    var noHit = true;
+    packageDetail.filter = [];
+    for (var i=0;i<packageDetail.resources.length;i++) {
+        var format = packageDetail.resources[i].format;
+        if (format === _filter) {
+            noHit = false;
+            packageDetail.filter.push(packageDetail.resources[i]);
         }
-        if (noImg) {
-            console.log('no image');
-            resolve(null);
+    }
+    if (noHit) {
+        callback(null, null);
+    } else {
+        callback(null, packageDetail);
+    }
+}
+
+function count(packageDetail, callback) {
+    if (_mode !== 'count') {
+        callback(null, packageDetail);
+        return;
+    }
+    packageDetail.filter = [];
+    for (var i=0;i<packageDetail.resources.length;i++) {
+        var format = packageDetail.resources[i].format;
+        if (format in _counter) {
+            _counter[format] = _counter[format] + 1;
         } else {
-            console.log('image');
-            resolve(data);
+            _counter[format] = 0;
         }
-    });    
+    }
+    callback(null, null);
 }
 
-function makeExcelList() {
+
+function make() {
     readPackageList().then(function(list) {
-        return list.reduce(function(prevValue, currentValue) {
-            return prevValue.then(function() {
-                return readPackageDetail(currentValue);
-            })
-            .then(readResources)
-            .then(function(data) {
-                _data.push(data);
+        console.log('list.length : ' + list.length)
+        async.forEachSeries(list, function(packageName, next){
+            console.log('packageName : ' + packageName);
+            async.waterfall([
+                function(next) {
+                    readPackageDetail(packageName).then(function(data) {
+                        next(null, data);
+                    });
+                },
+                count,
+                filtering,
+                readResources,
+                function(result, next2) {
+                    if (result) { 
+                        _data.push(result);
+                    }
+                    next2(null);
+                } 
+            ],function() {
+                next();
             });
-        }, Promise.resolve());
-    }).then(function() {
-        console.log('--------------------------');
-        var renderer = ECT({ root : __dirname + '/views' });
-        var md = renderer.render('out.ect',{
-            'data': _data
-        });
-        fs.writeFile('shizuoka-open-data.md', md , function (err) {
-            if (err) {
-                console.log(err);
+        }, function(err) {
+            console.log('------------------------------- : ' + _data.length);
+            if (_mode === 'count') {
+                console.log(_counter);
+                return;
             }
+            var ar = _data;
+            if (_mode === 'excel') {
+                ar = ar.divide(50);
+            } else {
+                ar = [ar];
+            }
+            var pageCount = 0;
+            async.each(ar, function(subData, next2){
+                pageCount = pageCount + 1;
+                var md = renderer.render('out.ect',{
+                    'mode': _mode,
+                    'data': subData
+                });
+                fs.writeFile('shizu-' + _mode + '-' + pageCount + '.md', md , function (err) {
+                    if (err) {
+                        console.log(err);
+                    }
+                    next2();
+                });
+            });    
         });
     });
 }
 
-function makeImageList() {
-    readPackageList().then(function(list) {
-        return list.reduce(function(prevValue, currentValue) {
-            return prevValue.then(function() {
-                return readPackageDetail(currentValue);
-            })
-            .then(checkImage)
-            .then(function(data) {
-                if (data) {
-                    _data.push(data);
-                }
-            });
-        }, Promise.resolve());
-    }).then(function() {
-        console.log('--------------------------');
-        console.log(JSON.stringify(_data));
-        var renderer = ECT({ root : __dirname + '/views' });
-        var md = renderer.render('img.ect',{
-            'data': _data
-        });
-        fs.writeFile('shizuoka-open-data-image.md', md , function (err) {
-            if (err) {
-                console.log(err);
-            }
-        });
-    });
-    
-}
 
-var argValue = process.argv[2];
-if (argValue === 'image') {
-    makeImageList();
-} else if (argValue === 'excel') {
-    makeExcelList();   
+var _mode = process.argv[2];
+if (['image','excel','pdf','count'].indexOf(_mode) != -1) { 
+    if (_mode === 'image') {
+        _filter = 'JPEG';
+    } else if (_mode === 'pdf') {
+        _filter = 'PDF';
+    }
+    make();
 }
