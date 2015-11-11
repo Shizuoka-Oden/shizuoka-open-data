@@ -109,7 +109,7 @@ function readPackageList() {
 
 function readPackageList2() {
     return new Promise(function(resolve, reject) {
-        resolve(['26']);
+        resolve(['056-1']);
     });    
 }
 
@@ -118,41 +118,39 @@ function readResources(packageDetail, callback) {
         callback(null, null);
         return;
     }
-    //if (_filter) {
-    //    callback(null, packageDetail);
-    //    return;
-    //}
     async.forEachSeries(packageDetail.resources, function(resource, next){
         resource.name = _packageCount + '.' +  _resourceCount + ". " + resource.name;
         _resourceCount = _resourceCount + 1;
         var format = resource.format;
-        console.log(format);
+        console.log(resource.name);
         if ((_filter) && (format !== _filter)) {
             next(); 
         } else if (inlineList.indexOf(format) == -1) {
             next();
         } else {
-            request(resource.url, function (error, response, body) {
-                if (!error && response.statusCode == 200) {
-                    console.log(body);
-                    resource.data = body;
-                } else {
-                    console.log('error '+ response.statusCode);
-                }
-                if ((resource.format === 'XLS') || (resource.format === 'XLSX')) {
-                    excel2Json({
-                        url:resource.url,
-                        id:resource.id,
-                        prefix:resource.format.toLowerCase()
-                    }).then(function(res) {
-                        resource.data = res;
-                        next(resource);
-                    });
-                } else {
+            if ((_filter) && (format === _filter)) {
+                request(resource.url, function (error, response, body) {
+                    if (!error && response.statusCode == 200) {
+                        console.log(body);
+                        resource.data = body;
+                    } else {
+                        console.log('error '+ response.statusCode);
+                    }
                     next();
-                }
-            });
-        } 
+                });
+            } else if ((resource.format === 'XLS') || (resource.format === 'XLSX')) {
+                excel2Json({
+                    url:resource.url,
+                    id:resource.id,
+                    prefix:resource.format.toLowerCase()
+                }).then(function(res) {
+                    resource.data = res;
+                    next();
+                });
+            } else {
+                next();
+            }
+        }
     }, function(err) {
         callback(null, packageDetail);
     });
@@ -294,6 +292,7 @@ if (filterList.indexOf(_mode) != -1) {
      _filter = _mode;
 } else {
     switch(_mode) {
+    case 'all':
     case 'count':
         break;
     default:
