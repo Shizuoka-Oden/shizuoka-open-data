@@ -104,6 +104,12 @@ function readPackageList() {
     });    
 }
 
+function readPackageList2() {
+    return new Promise(function(resolve, reject) {
+        resolve(['26']);
+    });    
+}
+
 function readResources(packageDetail, callback) {
     if (!packageDetail) {
         callback(null, null);
@@ -114,6 +120,12 @@ function readResources(packageDetail, callback) {
         return;
     }
     async.forEachSeries(packageDetail.resources, function(resource, next){
+        var format = resource.format;
+        if (inlineList.indexOf(format) == -1) {
+            next();
+        } else {
+            
+        } 
         if ((resource.format === 'XLS') || (resource.format === 'XLSX')) {
             excel2Json({
                 url:resource.url,
@@ -129,18 +141,22 @@ function readResources(packageDetail, callback) {
     });
 }
 
+/**
+ * フィルタ指定がある場合、そのリソースだけ別の配列にセットし直す。
+ * パッケージ内に１つも存在しない場合は、そのパッケージをスキップするためnullをセット
+ */
 function filtering(packageDetail, callback) {
     if (!_filter) {
         callback(null, packageDetail);
         return;
     }
     var noHit = true;
-    packageDetail.filter = [];
+    packageDetail.filteredData = [];
     for (var i=0;i<packageDetail.resources.length;i++) {
         var format = packageDetail.resources[i].format;
         if (format === _filter) {
             noHit = false;
-            packageDetail.filter.push(packageDetail.resources[i]);
+            packageDetail.filteredData.push(packageDetail.resources[i]);
         }
     }
     if (noHit) {
@@ -150,12 +166,15 @@ function filtering(packageDetail, callback) {
     }
 }
 
+/**
+ * モードが「count」の場合だけ、各フォーマット毎に数を集計する。
+ * 集計以外を行わないように、次のwaterfallではじけるように、nullをセットする
+ */
 function count(packageDetail, callback) {
     if (_mode !== 'count') {
         callback(null, packageDetail);
         return;
     }
-    packageDetail.filter = [];
     for (var i=0;i<packageDetail.resources.length;i++) {
         var format = packageDetail.resources[i].format;
         if (format in _counter) {
@@ -193,6 +212,7 @@ function make() {
             });
         }, function(err) {
             console.log('------------------------------- : ' + _data.length);
+            //console.log(_data);
             if (_mode === 'count') {
                 console.log(_counter);
                 return;
@@ -222,12 +242,47 @@ function make() {
 }
 
 
+var filterList = [
+    "XLS",
+    "PDF",
+    "CSV",
+    "XLSX",
+    "HTML",
+    "ZIP",
+    "DOCX",
+    "DOC",
+    "JSON",
+    "RDF",
+    "JPEG",
+    "dBase",
+    "SHP",
+    "shx",
+    "prj",
+    "sbn",
+    "sbx",
+    "XML"
+];
+
+var inlineList = [
+    "CSV",
+    "HTML",
+    "JSON",
+    "RDF",
+    "XML"
+];
+
+// mode 必要？
 var _mode = process.argv[2];
-if (['image','excel','pdf','count'].indexOf(_mode) != -1) { 
-    if (_mode === 'image') {
-        _filter = 'JPEG';
-    } else if (_mode === 'pdf') {
-        _filter = 'PDF';
-    }
+if (filterList.indexOf(_mode) != -1) {
+     _filter = _mode;
+} else {
+    switch(_mode) {
+    case 'count':
+        break;
+    default:
+        _mode = null;        
+    } 
+}
+if (_mode) {
     make();
 }

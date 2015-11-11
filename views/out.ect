@@ -1,28 +1,30 @@
 <% for a in @data : %>
-# <%= a.title %> (<%= a.num_resources %>)
+# [<%= a.name %>]<%= a.title %> (<%= a.num_resources %>)
 
 * <%= a.notes %>
 
 <% for b in a.resources : %>
+<% if b.data : %>
 
 ## [<%= b.name %>(<%= b.format %>)](<%= b.url %>)
 ```
 <%= b.data %>
 
 ```
-<% if @mode = 'image' : %>
-<% if a.filter : %>
 
-<% for b in a.filter : %>
+<% end %>
+<% end %>
+
+<% if a.filteredData : %>
+<% for b in a.filteredData : %>
 
 ## [<%= b.name %>(<%= b.format %>)](<%= b.url %>)
 
+<% if b.format == 'JPEG' : %>
 ![](<%= b.url %>)
-
-<% end %>
-<% end %>
 <% end %>
 
+<% end %>
 <% end %>
 <% end %>
 
