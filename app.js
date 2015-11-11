@@ -11,7 +11,7 @@ var _filter = null;
 var _counter = {};
 
 var _packageCount = 0;
-var _resourceCount = 0;
+var _resourceCount = 1;
 
 Array.prototype.divide = function(n){
     var ary = this;
@@ -78,9 +78,12 @@ function readPackageDetail(packageID) {
     return new Promise(function(resolve, reject) {
         request('http://dataset.city.shizuoka.jp/api/action/package_show?id=' + packageID, function (error, response, body) {
             if (!error && response.statusCode == 200) {
-                var json = JSON.parse(body);
+                var json = JSON.parse(body).result;
                 //console.log(packageID + ' / ' + json.result.title);
-                resolve(json.result);
+                _packageCount = _packageCount + 1;
+                json.title = _packageCount + '. ' + json.title;
+                _resourceCount = 1;
+                resolve(json);
             } else {
                 console.log('error '+ response.statusCode);
                 reject(error)
@@ -120,8 +123,13 @@ function readResources(packageDetail, callback) {
     //    return;
     //}
     async.forEachSeries(packageDetail.resources, function(resource, next){
+        resource.name = _packageCount + '.' +  _resourceCount + ". " + resource.name;
+        _resourceCount = _resourceCount + 1;
         var format = resource.format;
-        if (inlineList.indexOf(format) == -1) {
+        console.log(format);
+        if ((_filter) && (format !== _filter)) {
+            next(); 
+        } else if (inlineList.indexOf(format) == -1) {
             next();
         } else {
             request(resource.url, function (error, response, body) {
