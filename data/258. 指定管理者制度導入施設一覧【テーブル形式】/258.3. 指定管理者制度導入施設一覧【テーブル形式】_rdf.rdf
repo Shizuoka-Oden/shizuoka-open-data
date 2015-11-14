@@ -1,0 +1,1835 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix cc: <http://creativecommons.org/ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix sod: <http://open.city.shizuoka.jp/rdf/property#>.
+<>
+   cc:license <http://creativecommons.org/licenses/by/3.0/deed.ja>.
+
+<http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7>
+   rdf:type rdf:Property ;
+   rdfs:label "指定管理者制度導入施設一覧"@ja .
+<http://open.city.shizuoka.jp/rdf/property#>
+   rdf:type rdf:Property ;
+   rdfs:label ""@ja .
+<http://open.city.shizuoka.jp/rdf/property#>
+   rdf:type rdf:Property ;
+   rdfs:label ""@ja .
+<http://open.city.shizuoka.jp/rdf/property#>
+   rdf:type rdf:Property ;
+   rdfs:label ""@ja .
+<http://open.city.shizuoka.jp/rdf/property#>
+   rdf:type rdf:Property ;
+   rdfs:label ""@ja .
+<http://open.city.shizuoka.jp/rdf/property#>
+   rdf:type rdf:Property ;
+   rdfs:label ""@ja .
+<http://open.city.shizuoka.jp/rdf/property#>
+   rdf:type rdf:Property ;
+   rdfs:label ""@ja .
+<http://open.city.shizuoka.jp/rdf/property#>
+   rdf:type rdf:Property ;
+   rdfs:label ""@ja .
+<http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8>
+   rdf:type rdf:Property ;
+   rdfs:label "H26.4.1現在"@ja .
+<http://open.city.shizuoka.jp/rdf/property#>
+   rdf:type rdf:Property ;
+   rdfs:label ""@ja .
+<http://open.city.shizuoka.jp/rdf/property#>
+   rdf:type rdf:Property ;
+   rdfs:label ""@ja .
+<http://open.city.shizuoka.jp/rdf/property#>
+   rdf:type rdf:Property ;
+   rdfs:label ""@ja .
+<http://open.city.shizuoka.jp/rdf/property#>
+   rdf:type rdf:Property ;
+   rdfs:label ""@ja .
+<http://open.city.shizuoka.jp/rdf/property#>
+   rdf:type rdf:Property ;
+   rdfs:label ""@ja .
+<http://open.city.shizuoka.jp/rdf/property#>
+   rdf:type rdf:Property ;
+   rdfs:label ""@ja .
+<http://open.city.shizuoka.jp/rdf/property#>
+   rdf:type rdf:Property ;
+   rdfs:label ""@ja .
+<http://open.city.shizuoka.jp/rdf/property#>
+   rdf:type rdf:Property ;
+   rdfs:label ""@ja .
+<http://open.city.shizuoka.jp/rdf/property#>
+   rdf:type rdf:Property ;
+   rdfs:label ""@ja .
+<http://open.city.shizuoka.jp/rdf/property#>
+   rdf:type rdf:Property ;
+   rdfs:label ""@ja .
+<http://open.city.shizuoka.jp/rdf/property#>
+   rdf:type rdf:Property ;
+   rdfs:label ""@ja .
+<http://open.city.shizuoka.jp/rdf/property#R1>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R1"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "指定管理者制度導入施設一覧"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "H26.4.1現在"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R2>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R2"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "施設名"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "施設数"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "担当課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "指定管理者名"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "公募"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "指定期間"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R3>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R3"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "始期"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "終期"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "期間"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R4>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R4"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "女性会館"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "男女参画・
+市民協働推進課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "ＮＰＯ法人　男女共同参画フォーラムしずおか"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H24.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H29.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R5>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R5"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "2"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "番町市民活動センター"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "男女参画・
+市民協働推進課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "ＮＰＯ法人　静岡県ボランティア協会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H25.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H30.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R6>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R6"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "3"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "清水市民活動センター"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "男女参画・
+市民協働推進課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "ＮＰＯ法人サポート・しみず"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H25.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H30.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R7>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R7"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "4"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "静岡市民文化会館"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "文化振興課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "静岡市文化振興財団共同事業体"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H23.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H28.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R8>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R8"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "5"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "清水文化会館"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "文化振興課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "清水文化事業サポート株式会社"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H24.8.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H39.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "14年
+8月"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R9>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R9"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "6"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "静岡音楽館"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "文化振興課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "（公財）静岡市文化振興財団"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H23.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H28.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R10>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R10"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "7"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "静岡科学館"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "文化振興課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "（公財）静岡市文化振興財団"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H25.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H30.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R11>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R11"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "8"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "静岡市美術館"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "文化振興課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "（公財）静岡市文化振興財団"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H22.5.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H27.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "4年
+11月"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R12>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R12"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "9"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "生涯学習センター"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "11"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "生涯学習推進課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "静岡市文化振興財団共同事業体"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "11"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H26.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H31.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R13>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R13"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "10"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "生涯学習交流館（建替に伴って、岡一時廃止）"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "20"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "生涯学習推進課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "清水区生涯学習交流館運営協議会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H24.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H29.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R14>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R14"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "11"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "中央体育館、南部体育館、長田体育館、
+東部体育館、北部体育館、清水清見潟公園、
+西ヶ谷総合運動場、清水総合運動場"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "8"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "スポーツ振興課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "（公財）静岡市体育協会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H23.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H28.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R15>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R15"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "12"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "有度山総合公園運動施設（２施設）、
+城北運動場、清水長崎新田スポーツ広場"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "4"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "スポーツ振興課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "（株）三幸"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "4"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H23.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H28.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R16>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R16"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "13"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "清水ナショナルトレーニングセンター、
+清水日本平運動公園球技場・庭球場、
+清水蛇塚スポーツグラウンド、清水庵原球場"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "4"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "スポーツ振興課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "（公財）静岡市まちづくり公社"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "4"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H23.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H28.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R17>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R17"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "14"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "ふれあい健康増進館ゆらら"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "スポーツ振興課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "（公財）静岡市まちづくり公社"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H23.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H28.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R18>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R18"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "15"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "中央福祉センター"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "福祉総務課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "(福)静岡市社会福祉協議会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H23.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H28.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R19>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R19"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "16"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "清水社会福祉会館"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "福祉総務課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "(福)静岡市社会福祉協議会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H25.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H28.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "3年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R20>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R20"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "17"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "地域福祉交流プラザ"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "福祉総務課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "(福)静岡市社会福祉協議会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H22.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H27.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R21>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R21"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "18"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "救護所"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "福祉総務課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "(福)静岡市厚生事業協会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H25.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H30.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R22>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R22"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "19"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "桜の園、
+桜の園生活訓練ホーム、桜の園城北館生活訓練ホーム"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "3"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "障害者福祉課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "(福)恩賜財団　済生会支部静岡県済生会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H25.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H28.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "3年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R23>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R23"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "20"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "清水みなとふれあいセンター、清水うみのこセンター、
+清水なぎさホーム、清水うなばら学園、
+清水うしおワーク、清水ひびきワーク"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "6"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "障害者福祉課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "(福)静岡市しみず社会福祉事業団"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H25.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H28.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "3年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R24>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R24"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "21"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "わらしな学園、わらしなロッジ"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "2"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "障害者福祉課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "(福)静岡市厚生事業協会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H25.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H28.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "3年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R25>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R25"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "22"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "心身障害者ケアセンター"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "障害者福祉課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "(福)恩賜財団　済生会支部静岡県済生会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H22.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H27.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R26>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R26"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "23"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "心身障害児福祉センター「いこいの家」"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "障害者福祉課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "(福)恩賜財団　済生会支部静岡県済生会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H25.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H28.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "3年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R27>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R27"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "24"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "老人福祉センター
+（鯨ケ池、長尾川、用宗、清水船越、清水折戸、蒲原）"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "6"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "高齢者福祉課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "ＮＰＯ法人　ワーカーズコープ"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "6"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H25.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H28.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "3年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R28>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R28"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "25"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "老人憩の家（清水東部、清開きらく荘）"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "2"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "高齢者福祉課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "ＮＰＯ法人　ワーカーズコープ"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "2"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H25.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H28.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "3年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R29>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R29"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "26"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "世代間交流センター（清水北部、清水南部、由比）"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "3"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "高齢者福祉課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "ＮＰＯ法人　ワーカーズコープ"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "3"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H25.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H28.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "3年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R30>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R30"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "27"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "清水中央老人福祉センター"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "高齢者福祉課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "(福)静岡市社会福祉協議会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H25.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H28.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "3年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R31>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R31"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "28"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "小鹿老人福祉センター"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "高齢者福祉課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "静岡市文化振興財団共同事業体"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H26.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H31.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R32>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R32"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "29"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "井川高齢者生活福祉センター"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "高齢者福祉課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "(福)静岡市社会福祉協議会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H25.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H30.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R33>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R33"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "30"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "大川高齢者生活福祉センター"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "高齢者福祉課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "(福)駿河会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H25.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H30.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R34>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R34"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "梅ヶ島高齢者生活福祉センター"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "高齢者福祉課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "(福)桂"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H26.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H31.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R35>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R35"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "32"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "清水松風荘"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "高齢者福祉課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "(福)清承会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H25.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H30.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R36>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R36"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "33"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "清水社会福祉会館老人デイサービスセンター"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "高齢者福祉課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "(福)静岡市社会福祉協議会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H25.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H28.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "3年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R37>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R37"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "34"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "蒲原老人デイサービスセンター"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "高齢者福祉課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "(福)静岡市社会福祉協議会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H25.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H28.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "3年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R38>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R38"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "35"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "静岡老人ホーム"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "高齢者福祉課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "(福)静岡市厚生事業協会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H25.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H30.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R39>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R39"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "36"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "急病センター"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "保健衛生総務課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "（一社）静岡市静岡医師会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H25.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H30.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R40>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R40"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "37"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "動物愛護館"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "動物指導ｾﾝﾀｰ"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "（社）静岡県動物保護協会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H24.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H29.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R41>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R41"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "38"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "支援センターなごやか
+（精神障害者地域生活支援センター）"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "精神保健福祉課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "医療法人社団　リラ"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H22.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H27.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R42>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R42"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "39"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "静岡中央子育て支援センター"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "子ども未来課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "(福)静岡市社会福祉協議会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H25.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H30.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R43>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R43"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "40"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "清水中央子育て支援センター"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "子ども未来課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "(福)静岡市社会福祉協議会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H25.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H30.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R44>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R44"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "41"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "城東子育て支援センター"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "子ども未来課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "ＮＰＯ法人　なのはな"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H25.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H30.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R45>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R45"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "42"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "蒲原子育て支援センター"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "子ども未来課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "ＮＰＯ法人　子育て支援どろん子"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H25.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H30.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R46>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R46"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "43"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "児童館（西奈、安東、美和、麻機、服織、豊田、長田、
+中島、蒲原白銀、由比、草薙）"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "11"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "子ども未来課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "(福)静岡市社会福祉協議会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "11"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H25.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H30.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R47>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R47"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "44"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "清水産業・情報プラザ"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "産業政策課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "静岡商工会議所"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H26.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H29.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "3年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R48>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R48"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "45"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "産学交流センター"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "産業政策課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "（財）静岡産業振興協会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H25.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H30.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R49>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R49"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "46"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "クリエーター支援センター"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "産業政策課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "ＮＰＯ法人
+しずおかコンテンツバレー推進コンソーシアム"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H24.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H27.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "3年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R50>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R50"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "47"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "こどもクリエイティブタウン"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "産業政策課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "株式会社丹青社"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H25.1.20"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H29.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "4年
+2月"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R51>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R51"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "48"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "北部勤労者福祉センター"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "商業労政課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "（公財）静岡市まちづくり公社"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H22.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H27.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R52>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R52"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "49"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "南部勤労者福祉センター"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "商業労政課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "静岡市文化振興財団共同事業体"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H26.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H31.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R53>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R53"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "50"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "東部勤労者福祉センター"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "商業労政課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "清水テルサ管理運営共同企業体"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H25.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H28.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "3年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R54>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R54"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "51"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "工芸と歴史の体験施設「駿府匠宿」"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "産業振興課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "（株）駿府楽市"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H23.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H28.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R55>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R55"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "52"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "清水港船宿記念館「末廣」"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "観光・シティプロモーション課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "（財）静岡観光コンベンション協会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H23.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H28.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R56>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R56"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "53"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "東海道広重美術館"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "観光・シティプロモーション課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "ＮＰＯ法人　ヘキサプロジェクト"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H25.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H30.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "3年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R57>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R57"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "54"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "由比本陣施設"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "観光・シティプロモーション課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "ＮＰＯ法人　ふれあい由比"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H25.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H30.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "3年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R58>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R58"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "55"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "港湾会館清水日の出センター（２施設）"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "2"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "清水港振興課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "清水港振興グループ"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "2"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H23.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H28.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R59>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R59"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "56"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "用宗漁港施設「用宗フィッシャリーナ」"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "水産漁港課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "清水漁業協同組合"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H24.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H27.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "3年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R60>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R60"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "57"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "口坂本温泉浴場"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "中山間地振興課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "大新東株式会社静岡営業所"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H26.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H29.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "3年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R61>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R61"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "58"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "湯ノ島温泉浴場"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "中山間地振興課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "湯ノ島温泉運営協議会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H23.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H28.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R62>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R62"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "59"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "梅ヶ島新田温泉「黄金の湯」"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "中山間地振興課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "梅ヶ島新田温泉運営協議会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H23.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H28.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R63>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R63"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "60"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "清水西里温泉浴場「やませみの湯」"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "中山間地振興課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "清水西里温泉浴場運営協議会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H22.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H27.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R64>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R64"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "61"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "梅ヶ島コンヤの里レクリエーション施設"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "中山間地振興課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "梅ヶ島コンヤの里テニス場運営協議会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H23.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H28.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R65>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R65"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "62"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "日影沢親水園"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "中山間地振興課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "梅ケ島淡水魚生産組合"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H22.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H27.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R66>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R66"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "63"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "南アルプス井川オートキャンプ場"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "中山間地振興課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "静岡市井川振興会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H26.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H29.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "3年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R67>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R67"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "64"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "藁科都市山村交流センター"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "中山間地振興課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "藁科交流センター運営委員会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H25.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H30.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R68>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R68"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "65"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "賤機都市山村交流センター"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "中山間地振興課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "賤機都市山村交流センター運営委員会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H24.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H29.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R69>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R69"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "66"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "清水森林公園"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "中山間地振興課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "清水森林組合"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H22.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H27.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R70>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R70"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "67"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "南アルプス赤石温泉「白樺荘」"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "中山間地振興課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "静岡市井川振興会"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H24.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H27.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "3年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R71>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R71"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "68"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "清水駅東口駐車場"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "交通政策課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "静岡ビルサービス?"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H24.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H27.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "3年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R72>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R72"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "69"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "静岡ヘリポート"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "交通政策課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "（公財）静岡市まちづくり公社"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H23.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H28.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R73>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R73"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "70"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "駿府城公園東御門・巽櫓、日本庭園及び茶室"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "公園整備課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "（株）静岡ビル保善"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H23.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H28.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R74>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R74"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "71"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "市営住宅及び改良住宅等"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "86"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "住宅政策課"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "（公財）静岡市まちづくり公社"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H25.4.1"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "H30.3.31"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> "5年"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R75>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R75"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> "計"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "225"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> "72"@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R76>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R76"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E6%8C%87%E5%AE%9A%E7%AE%A1%E7%90%86%E8%80%85%E5%88%B6%E5%BA%A6%E5%B0%8E%E5%85%A5%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#H26.4.1%E7%8F%BE%E5%9C%A8> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja ;
+   <http://open.city.shizuoka.jp/rdf/property#> ""@ja .
+

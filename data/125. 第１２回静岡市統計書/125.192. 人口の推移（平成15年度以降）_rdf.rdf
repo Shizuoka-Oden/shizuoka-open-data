@@ -1,0 +1,64 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix cc: <http://creativecommons.org/ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix sod: <http://open.city.shizuoka.jp/rdf/property#>.
+<>
+   cc:license <http://creativecommons.org/licenses/by/3.0/deed.ja>.
+
+<http://open.city.shizuoka.jp/rdf/property#%E5%B9%B4%E6%AC%A1%09%E4%BA%BA%E5%8F%A3%E7%B7%8F%E6%95%B0%09%E4%BA%BA%E5%8F%A3%EF%BC%88%E7%94%B7%EF%BC%89%09%E4%BA%BA%E5%8F%A3%EF%BC%88%E5%A5%B3%EF%BC%89%09%E4%B8%96%E3%80%80%E5%B8%AF%E3%80%80%E6%95%B0>
+   rdf:type rdf:Property ;
+   rdfs:label "年次	人口総数	人口（男）	人口（女）	世　帯　数"@ja .
+<http://open.city.shizuoka.jp/rdf/property#R1>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R1"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E5%B9%B4%E6%AC%A1%09%E4%BA%BA%E5%8F%A3%E7%B7%8F%E6%95%B0%09%E4%BA%BA%E5%8F%A3%EF%BC%88%E7%94%B7%EF%BC%89%09%E4%BA%BA%E5%8F%A3%EF%BC%88%E5%A5%B3%EF%BC%89%09%E4%B8%96%E3%80%80%E5%B8%AF%E3%80%80%E6%95%B0> "年次	人口総数	人口（男）	人口（女）	世　帯　数"@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R2>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R2"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E5%B9%B4%E6%AC%A1%09%E4%BA%BA%E5%8F%A3%E7%B7%8F%E6%95%B0%09%E4%BA%BA%E5%8F%A3%EF%BC%88%E7%94%B7%EF%BC%89%09%E4%BA%BA%E5%8F%A3%EF%BC%88%E5%A5%B3%EF%BC%89%09%E4%B8%96%E3%80%80%E5%B8%AF%E3%80%80%E6%95%B0> "平成15年	703194	342576	360618	262197"@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R3>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R3"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E5%B9%B4%E6%AC%A1%09%E4%BA%BA%E5%8F%A3%E7%B7%8F%E6%95%B0%09%E4%BA%BA%E5%8F%A3%EF%BC%88%E7%94%B7%EF%BC%89%09%E4%BA%BA%E5%8F%A3%EF%BC%88%E5%A5%B3%EF%BC%89%09%E4%B8%96%E3%80%80%E5%B8%AF%E3%80%80%E6%95%B0> "平成16年	702499	342148	360351	265372"@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R4>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R4"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E5%B9%B4%E6%AC%A1%09%E4%BA%BA%E5%8F%A3%E7%B7%8F%E6%95%B0%09%E4%BA%BA%E5%8F%A3%EF%BC%88%E7%94%B7%EF%BC%89%09%E4%BA%BA%E5%8F%A3%EF%BC%88%E5%A5%B3%EF%BC%89%09%E4%B8%96%E3%80%80%E5%B8%AF%E3%80%80%E6%95%B0> "平成17年	700886	340999	359887	264073"@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R5>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R5"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E5%B9%B4%E6%AC%A1%09%E4%BA%BA%E5%8F%A3%E7%B7%8F%E6%95%B0%09%E4%BA%BA%E5%8F%A3%EF%BC%88%E7%94%B7%EF%BC%89%09%E4%BA%BA%E5%8F%A3%EF%BC%88%E5%A5%B3%EF%BC%89%09%E4%B8%96%E3%80%80%E5%B8%AF%E3%80%80%E6%95%B0> "平成18年	712170	346549	365621	270996"@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R6>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R6"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E5%B9%B4%E6%AC%A1%09%E4%BA%BA%E5%8F%A3%E7%B7%8F%E6%95%B0%09%E4%BA%BA%E5%8F%A3%EF%BC%88%E7%94%B7%EF%BC%89%09%E4%BA%BA%E5%8F%A3%EF%BC%88%E5%A5%B3%EF%BC%89%09%E4%B8%96%E3%80%80%E5%B8%AF%E3%80%80%E6%95%B0> "平成19年	710749	345616	365133	273645"@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R7>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R7"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E5%B9%B4%E6%AC%A1%09%E4%BA%BA%E5%8F%A3%E7%B7%8F%E6%95%B0%09%E4%BA%BA%E5%8F%A3%EF%BC%88%E7%94%B7%EF%BC%89%09%E4%BA%BA%E5%8F%A3%EF%BC%88%E5%A5%B3%EF%BC%89%09%E4%B8%96%E3%80%80%E5%B8%AF%E3%80%80%E6%95%B0> "平成20年	709673	345026	364647	276467"@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R8>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R8"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E5%B9%B4%E6%AC%A1%09%E4%BA%BA%E5%8F%A3%E7%B7%8F%E6%95%B0%09%E4%BA%BA%E5%8F%A3%EF%BC%88%E7%94%B7%EF%BC%89%09%E4%BA%BA%E5%8F%A3%EF%BC%88%E5%A5%B3%EF%BC%89%09%E4%B8%96%E3%80%80%E5%B8%AF%E3%80%80%E6%95%B0> "平成21年	717198	348533	368665	281879"@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R9>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R9"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E5%B9%B4%E6%AC%A1%09%E4%BA%BA%E5%8F%A3%E7%B7%8F%E6%95%B0%09%E4%BA%BA%E5%8F%A3%EF%BC%88%E7%94%B7%EF%BC%89%09%E4%BA%BA%E5%8F%A3%EF%BC%88%E5%A5%B3%EF%BC%89%09%E4%B8%96%E3%80%80%E5%B8%AF%E3%80%80%E6%95%B0> "平成22年	716197	348609	367588	279019"@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R10>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R10"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E5%B9%B4%E6%AC%A1%09%E4%BA%BA%E5%8F%A3%E7%B7%8F%E6%95%B0%09%E4%BA%BA%E5%8F%A3%EF%BC%88%E7%94%B7%EF%BC%89%09%E4%BA%BA%E5%8F%A3%EF%BC%88%E5%A5%B3%EF%BC%89%09%E4%B8%96%E3%80%80%E5%B8%AF%E3%80%80%E6%95%B0> "平成23年	714513	347732	366781	281222"@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R11>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R11"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E5%B9%B4%E6%AC%A1%09%E4%BA%BA%E5%8F%A3%E7%B7%8F%E6%95%B0%09%E4%BA%BA%E5%8F%A3%EF%BC%88%E7%94%B7%EF%BC%89%09%E4%BA%BA%E5%8F%A3%EF%BC%88%E5%A5%B3%EF%BC%89%09%E4%B8%96%E3%80%80%E5%B8%AF%E3%80%80%E6%95%B0> "平成24年	712330	346549	365781	283013"@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R12>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R12"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E5%B9%B4%E6%AC%A1%09%E4%BA%BA%E5%8F%A3%E7%B7%8F%E6%95%B0%09%E4%BA%BA%E5%8F%A3%EF%BC%88%E7%94%B7%EF%BC%89%09%E4%BA%BA%E5%8F%A3%EF%BC%88%E5%A5%B3%EF%BC%89%09%E4%B8%96%E3%80%80%E5%B8%AF%E3%80%80%E6%95%B0> "平成25年	709702	345400	364302	285618"@ja .
+
+<http://open.city.shizuoka.jp/rdf/property#R13>
+   <http://www.w3.org/2000/01/rdf-schema#label> "R13"@ja;
+   <http://open.city.shizuoka.jp/rdf/property#%E5%B9%B4%E6%AC%A1%09%E4%BA%BA%E5%8F%A3%E7%B7%8F%E6%95%B0%09%E4%BA%BA%E5%8F%A3%EF%BC%88%E7%94%B7%EF%BC%89%09%E4%BA%BA%E5%8F%A3%EF%BC%88%E5%A5%B3%EF%BC%89%09%E4%B8%96%E3%80%80%E5%B8%AF%E3%80%80%E6%95%B0> "平成26年	706553	343809	362744	288098"@ja .
+
