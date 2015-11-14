@@ -1,9 +1,12 @@
-var fs = require('fs');
 var request = require('request');
 var xlsx = require('node-xlsx');
 var ECT = require('ect');
 var async = require('async');
 var renderer = ECT({ root : __dirname + '/views' });
+var path = require("path");
+var mkdirp = require("mkdirp")
+var fs = require("fs")
+var getDirName = require("path").dirname
 
 var _data = [];
 var _mode = null;
@@ -13,6 +16,9 @@ var _counter = {};
 var _packageCount = 0;
 var _resourceCount = 1;
 
+/**
+ * 配列を指定した数毎に分割
+ */
 Array.prototype.divide = function(n){
     var ary = this;
     var idx = 0;
@@ -30,22 +36,31 @@ Array.prototype.divide = function(n){
     return results;
 }
 
+/**
+ * バイナリファイルを読み込んで、ローカルに保存
+ */
 function readBinaryFromHttp(param) {
     return new Promise(function(resolve, reject) {
         var req = {
             uri: param.url,
-            encoding: null
+            encoding: null,
+            timeout: 60000
         };
+        var dir = 'data/';
+        if (param.package) {
+          dir =  dir + param.package + '/';
+        }
         request(req, function (error, response, body) {
             if (!error && response.statusCode == 200) {
-                fs.writeFile('data/' + param.id + '.' + param.prefix, body , function (err) {
+                var name = dir + param.name + '.' + param.prefix;
+                fs.writeFile(name, body , function (err) {
                     resolve();
                 });
             } else {
                 if (response) {
                     console.log('error : '+ response.statusCode);
                 }
-                reject(error)
+                resolve(error)
             }
         });
     });
@@ -79,7 +94,7 @@ function readPackageDetail(packageID) {
         request('http://dataset.city.shizuoka.jp/api/action/package_show?id=' + packageID, function (error, response, body) {
             if (!error && response.statusCode == 200) {
                 var json = JSON.parse(body).result;
-                //console.log(packageID + ' / ' + json.result.title);
+                console.log(packageID + ' / ' + json.title);
                 _packageCount = _packageCount + 1;
                 json.title = _packageCount + '. ' + json.title;
                 _resourceCount = 1;
@@ -89,11 +104,13 @@ function readPackageDetail(packageID) {
                 reject(error)
             }
         });
-    });    
+    });
 }
 
+
+
 function readPackageList() {
-    return new Promise(function(resolve, reject) {
+   return new Promise(function(resolve, reject) {
         request('http://dataset.city.shizuoka.jp/api/action/package_list', function (error, response, body) {
             if (!error && response.statusCode == 200) {
                 var json = JSON.parse(body);
@@ -104,13 +121,13 @@ function readPackageList() {
                 reject(error)
             }
         });
-    });    
+    });
 }
 
 function readPackageList2() {
     return new Promise(function(resolve, reject) {
-        resolve(['056-1']);
-    });    
+        resolve(['kikaku20151023-016']);
+    });
 }
 
 function readResources(packageDetail, callback) {
@@ -123,15 +140,37 @@ function readResources(packageDetail, callback) {
         _resourceCount = _resourceCount + 1;
         var format = resource.format;
         console.log(resource.name);
-        if ((_filter) && (format !== _filter)) {
-            next(); 
+        if (_mode === 'download') {
+            if (format !== 'ZIP') {
+                var dir = 'data/' + packageDetail.title;
+                mkdirp(dir, function (err) {
+                if (err) {
+                    console.log(err);
+                    next();
+                } else {
+                    readBinaryFromHttp({
+                        package:packageDetail.title,
+                        url:resource.url,
+                        name:resource.name,
+                        prefix:resource.format.toLowerCase()
+                    }).then(function(res) {
+                        resource.data = res;
+                        next();
+                    });                  
+                }
+                });
+            } else {
+                next();
+            }
+        } else if ((_filter) && (format !== _filter)) {
+            next();
         } else if (inlineList.indexOf(format) == -1) {
             next();
         } else {
             if ((_filter) && (format === _filter)) {
                 request(resource.url, function (error, response, body) {
                     if (!error && response.statusCode == 200) {
-                        console.log(body);
+                        //console.log(body);
                         resource.data = body;
                     } else {
                         console.log('error '+ response.statusCode);
@@ -201,30 +240,36 @@ function count(packageDetail, callback) {
     callback(null, null);
 }
 
+var startIndex = 0;
 
 function make() {
     readPackageList().then(function(list) {
         console.log('list.length : ' + list.length)
         async.forEachSeries(list, function(packageName, next){
-            console.log('packageName : ' + packageName);
-            async.waterfall([
-                function(next) {
-                    readPackageDetail(packageName).then(function(data) {
-                        next(null, data);
-                    });
-                },
-                count,
-                filtering,
-                readResources,
-                function(result, next2) {
-                    if (result) { 
-                        _data.push(result);
+            //console.log('packageName : ' + packageName);
+            if (_packageCount < startIndex) {
+                _packageCount = _packageCount + 1;
+                next();                
+            } else {
+                async.waterfall([
+                    function(next) {
+                        readPackageDetail(packageName).then(function(data) {
+                            next(null, data);
+                        });
+                    },
+                    count,
+                    filtering,
+                    readResources,
+                    function(result, next2) {
+                        if (result) {
+                            _data.push(result);
+                        }
+                        next2(null);
                     }
-                    next2(null);
-                } 
-            ],function() {
-                next();
-            });
+                ],function() {
+                    next();
+                });
+            }
         }, function(err) {
             console.log('------------------------------- : ' + _data.length);
             //console.log(_data);
@@ -251,7 +296,7 @@ function make() {
                     }
                     next2();
                 });
-            });    
+            });
         });
     });
 }
@@ -294,10 +339,11 @@ if (filterList.indexOf(_mode) != -1) {
     switch(_mode) {
     case 'all':
     case 'count':
+    case 'download':
         break;
     default:
-        _mode = null;        
-    } 
+        _mode = null;
+    }
 }
 if (_mode) {
     make();
